@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+    <h1 id="app-title">Wikipedia Viewer</h1>
+  </div>
+
+  <!-- SEARCH BAR AND RANDOM BUTTON -->
+  <div id="search-row" class="row">
+    <div class="col-md-8 col-sm-12">
+      <div id="search-bar" class="input-group input-group-lg">
+
+        <span class="input-group-btn">
+        <button id="srcBtn" class="btn btn-primary" type="button">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
+        </span>
+
+        <input id="searchInput" type="text" class="form-control" placeholder="Search Wikipedia..." />
+      </div>
+    </div>
+
+    <div class="col-md-4 col-sm-12">
+      <button id="random-btn" class="btn btn-secondary" type="button">
+        Random Article
+      </button>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div id="" class="col-xs-12">
+      <ul id="result-list">
+        <!--<li class="result clearfix">
+          <img src="https://yt3.ggpht.com/q8B6AkySdxRQWe4l3LCsGBLKi4RTjw3T1qCQu1399ilWgkSvDA2alCNn2dFiQeYLOSfIRHMYEG_i8xDphFc=s900-nd-c-c0xffffffff-rj-k-no" class="pull-left">
+          <h2 class="article-header">Prova</h1>
+          <p class="article-desc">
+            SASASA
+          </p>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
